@@ -151,7 +151,7 @@ namespace caesar
 					std::cout<<"Possible deciphered passwords: "<<std::endl;
 				exists = false;
 				++possible;
-				std::cout<<possible<<".\""<<str<<"\""<<std::endl;
+				std::cout<<possible<<".\""<<str<<"\" for key ="<<i<<std::endl;
 			}
 
 			// Prepare for next word
